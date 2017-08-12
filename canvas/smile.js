@@ -26,7 +26,7 @@ ctx.stroke();
 // SMILE
 ctx.beginPath();
 ctx.arc(250, 250, 150, 0, Math.PI);
+ctx.lineTo(400, 250);
 ctx.fillStyle = "white";
 ctx.fill();
-ctx.lineTo(400, 250);
 ctx.stroke();
